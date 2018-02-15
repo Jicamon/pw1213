@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formularios</title>
+</head background="img/Trigger.gif">
+<body>
+	Formulario: Contenedor que sirve para encapsular metodos <br>
+	de entrada de datos del usuario. <br>
+	En el formulario se puede:
+	<ol>
+		<li>Capturar datos</li>
+		<li>Validar lo que se ingresa</li>
+		<li>Enviar a proceso</li>
+		<li>Reiniciar la captura</li>
+	</ol>
+	<form action="archivos.html" method="post">
+		<input name="txtNumeroControl" type="text" placeholder="N&uacute;mero de Control" required autofocus>
+		<input name="txtClave" type="password" placeholder="Clave de acceso">
+		<input name="txtPromedio" type="number" placeholder="Promedio">
+		<input name="txtFecha" type="date">
+		<input name="txtColor" type="color">
+		<input name="txtCorreo" type="email">
+		<input name="txtBuscar" type="search"><br>
+		<!-- Dispara la accion del form -->
+		<input type="submit" value="Enviar">
+		<!-- Reinicia los inputs -->
+		<input type="reset" name="Borrar">
+		<!-- simple boton -->
+		<input type="button" value="Enviar">
+
+	</form>
+</body>
+</html>
